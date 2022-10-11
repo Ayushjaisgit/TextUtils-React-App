@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# TextUtils-React App 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Used to analyse and manupulate written text.
 
 ## Available Scripts
 
