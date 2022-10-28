@@ -1,6 +1,6 @@
 # TextUtils-React App 
 
-Used to analyse and manupulate written text.
+Used to Count, analyse and manupulate user written text deployed site - https://wordcounter-react-app.netlify.app/
 
 ## Available Scripts
 
