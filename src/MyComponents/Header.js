@@ -24,15 +24,16 @@ export default function Navbar(props) {
               <Link className={`nav-link active text-${props.mode === `light` ? 'dark' : 'light'} `} aria-current="page" to="/">Home</Link>
             </li>
 
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link className={`nav-link text-${props.mode === `light` ? 'dark' : 'light'} `} to="/About"> About </Link>
-            </li>
+            </li> */}
+            
           </ul>
 
-          <form className="d-flex" role="search">
+          {/* <form className="d-flex" role="search">
             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
             <button className="btn btn-outline-primary  sd" type="submit">Search</button>
-          </form>
+          </form> */}
 
           {/* devide and conquor -- (turnary opperator was used) {} used so that we canm use javascript `` was used and content inside it was made tmeplate lateral bwcause of this and then $ or {} used so that we can make any variable ${props.mode===`light`?'dark':'light'} like this and then this variable is having a turnary operator which is specifiying that if props ka mode light h to dark ho jaye or dark h to light ho jaye  */}
 

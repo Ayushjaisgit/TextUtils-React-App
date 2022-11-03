@@ -1,4 +1,4 @@
-import React ,{useState} from 'react'
+import React , {useState} from 'react'
 
 export default function () {
     const [mystyle, setmystyle] = useState ({
@@ -13,8 +13,7 @@ export default function () {
             setmystyle({
                 color:'white',
                 backgroundColor:'black',
-                // border: '1px solid white',
-                // borderRadius:'14px'
+
 
              })
             setbtnText("Enable Light Mode")
