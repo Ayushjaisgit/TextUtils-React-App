@@ -17,7 +17,7 @@ export default function () {
                 // borderRadius:'14px'
 
              })
-            setbtnText("Enable Dark Mode")
+            setbtnText("Enable Light Mode")
         }
 
         else{
@@ -25,7 +25,7 @@ export default function () {
                 color:'black',
                 backgroundColor:'white'
             })
-            setbtnText("Enable Light Mode")
+            setbtnText("Enable Dark Mode")
         }
     }
 
